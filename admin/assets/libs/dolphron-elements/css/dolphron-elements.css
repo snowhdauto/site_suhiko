@@ -1,0 +1,116 @@
+.dolphron-elements.button {
+	border: none;
+	font: 16px/24px 'app_ttnorms', sans-serif;
+	
+	-webkit-font-variant-ligatures: none;
+	-webkit-font-feature-settings: none;
+	font-feature-settings: none;
+	font-variant-ligatures: none;
+
+	color: #050505;
+	background: #CCC;
+	padding: 15px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	transition: 0.2s all;
+	-webkit-transition: 0.2s all;
+	-moz-transition: 0.2s all;
+	-ms-transition: 0.2s all;
+	-o-transition: 0.2s all;
+	cursor: pointer;
+}
+.dolphron-elements.button.button_disabled {
+	color: #050505;
+	background: #CCC;
+	cursor: default;
+}
+.dolphron-elements.button.button_accent {
+	color: #FFF;
+	background: #9f040c;
+}
+.dolphron-elements.button.button_primary {
+	color: #050505;
+	background: #e3e3e3;
+}
+.dolphron-elements.button.button_primary:hover {
+	color: #FFF;
+	background: #9f040c;
+}
+textarea.dolphron-elements {
+	resize: none;
+}
+textarea.dolphron-elements,
+input.dolphron-elements ,
+select.dolphron-elements {
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	font: 16px/24px 'app_ttnorms', sans-serif;
+	
+	-webkit-font-variant-ligatures: none;
+	-webkit-font-feature-settings: none;
+	font-feature-settings: none;
+	font-variant-ligatures: none;
+	
+	color: #050505;
+	background: #FFF;
+	padding: 15px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.dolphron-elements.form-input-text {
+	display: flex;
+	justify-content: space-between;
+}
+
+.dolphron-elements.form-input-label {
+	display: block;
+	margin-bottom: 20px;
+}
+.dolphron-elements.form-input-label.input-error input,
+.dolphron-elements.form-input-label.input-error textarea,
+.dolphron-elements.form-input-label.input-error select {
+	margin: 0;
+	border-color: #E13B3B;
+	background: #FFF9F9;
+}
+.dolphron-elements.error-message {
+	display: none;
+	margin-top: 5px;
+	color: #E13B3B;
+}
+.dolphron-elements.form-input-label.input-error .dolphron-elements.error-message { display: block; }
+
+.table-wrapper.dolphron-elements {
+	overflow: auto;
+}
+.table-wrapper.dolphron-elements table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-wrapper.dolphron-elements table td, .table-wrapper.dolphron-elements table th {
+  border: 1px solid #ddd;
+	padding: 8px;
+	vertical-align: top;
+}
+
+.table-wrapper.dolphron-elements table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-wrapper.dolphron-elements table tr:hover {background-color: #ddd;}
+
+.table-wrapper.dolphron-elements table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #9f040c;
+  color: white;
+}
